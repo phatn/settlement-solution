@@ -1,0 +1,9 @@
+spring:
+    jpa:
+        hibernate:
+            ddl-auto: none
+    datasource:
+        url: jdbc:mysql://localhost:3306/settlement_db
+        driverClassName: com.mysql.cj.jdbc.Driver
+        username: root
+        password: 123
